@@ -3,7 +3,10 @@ console.log("file is loaded correctly");
 
 
 
-    $(".icons img").click(function(){
+
+$(".overlay").click(function(){
       $('html,body').animate({
-        scrollTop: $(".workGrid").offset().top}, 'slow');
+        scrollTop: $(".workGrid").offset().top},'slow');
       });
+
+
